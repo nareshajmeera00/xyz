@@ -2,26 +2,26 @@
 <testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-01T19:39:20 IST" name="Default suite" finished-at="2024-10-01T19:42:42 IST" duration-ms="201384">
+  <suite started-at="2024-10-03T16:55:39 IST" name="Default suite" finished-at="2024-10-03T16:59:42 IST" duration-ms="243074">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RLL_240Testing_FirstCry_AddToCart.RunnerTestNG@4d1c005e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RLL_240Testing_FirstCry_AddToCart.RunnerTestNG@24569dba]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-10-01T19:39:20 IST" name="Default test" finished-at="2024-10-01T19:42:42 IST" duration-ms="201384">
+    <test started-at="2024-10-03T16:55:39 IST" name="Default test" finished-at="2024-10-03T16:59:42 IST" duration-ms="243074">
       <class name="com.runner.RLL_240Testing_FirstCry_AddToCart.RunnerTestNG">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.runner.RLL_240Testing_FirstCry_AddToCart.RunnerTestNG@4d1c005e]" started-at="2024-10-01T19:39:20 IST" name="setUpClass" finished-at="2024-10-01T19:39:21 IST" duration-ms="558" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.runner.RLL_240Testing_FirstCry_AddToCart.RunnerTestNG@24569dba]" started-at="2024-10-03T16:55:39 IST" name="setUpClass" finished-at="2024-10-03T16:55:39 IST" duration-ms="624" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1e95b653]]>
+                <![CDATA[org.testng.TestRunner@58fbd02e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RLL_240Testing_FirstCry_AddToCart.RunnerTestNG@4d1c005e]" started-at="2024-10-01T19:39:21 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-01T19:39:39 IST" duration-ms="18076" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RLL_240Testing_FirstCry_AddToCart.RunnerTestNG@24569dba]" started-at="2024-10-03T16:55:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-03T16:56:06 IST" duration-ms="26250" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RLL_240Testing_FirstCry_AddToCart.RunnerTestNG@4d1c005e]" started-at="2024-10-01T19:39:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-01T19:40:21 IST" duration-ms="41754" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RLL_240Testing_FirstCry_AddToCart.RunnerTestNG@24569dba]" started-at="2024-10-03T16:56:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-03T16:56:55 IST" duration-ms="49308" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RLL_240Testing_FirstCry_AddToCart.RunnerTestNG@4d1c005e]" started-at="2024-10-01T19:40:21 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-01T19:41:08 IST" duration-ms="47344" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RLL_240Testing_FirstCry_AddToCart.RunnerTestNG@24569dba]" started-at="2024-10-03T16:56:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-03T16:57:58 IST" duration-ms="62784" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -69,25 +69,25 @@
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[element not interactable
-  (Session info: chrome=129.0.6668.70)
+  (Session info: chrome=129.0.6668.89)
 Build info: version: '4.20.0', revision: '866c76ca80'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ba0110c0d1d6eb184468b9fee6c88a36, clickElement {id=f.D3C2AD64998EFA4E5A06487AC5E6CCB2.d.4618D840CAC3B98D612373899E54D17C.e.135}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\AJMEER~1.NAR\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64203}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64203/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (ba0110c0d1d6eb184468b9fee6c88a36)] -> xpath: //div[@class='addgotoText btn_fill add_to_cart']//span[text()='ADD TO CART']]
-Session ID: ba0110c0d1d6eb184468b9fee6c88a36]]>
+Command: [f7f84a3b68eff44e9cb635c294b663cb, clickElement {id=f.C0E4410D8A1F4736193430F31A1DCF52.d.EB42BB97E7F9B408AA7C0CF3A7942ED3.e.137}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.89, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\AJMEER~1.NAR\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62852}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62852/devtoo..., se:cdpVersion: 129.0.6668.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f7f84a3b68eff44e9cb635c294b663cb)] -> xpath: //div[@class='addgotoText btn_fill add_to_cart']//span[text()='ADD TO CART']]
+Session ID: f7f84a3b68eff44e9cb635c294b663cb]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=129.0.6668.70)
+  (Session info: chrome=129.0.6668.89)
 Build info: version: '4.20.0', revision: '866c76ca80'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ba0110c0d1d6eb184468b9fee6c88a36, clickElement {id=f.D3C2AD64998EFA4E5A06487AC5E6CCB2.d.4618D840CAC3B98D612373899E54D17C.e.135}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\AJMEER~1.NAR\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64203}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64203/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (ba0110c0d1d6eb184468b9fee6c88a36)] -> xpath: //div[@class='addgotoText btn_fill add_to_cart']//span[text()='ADD TO CART']]
-Session ID: ba0110c0d1d6eb184468b9fee6c88a36
+Command: [f7f84a3b68eff44e9cb635c294b663cb, clickElement {id=f.C0E4410D8A1F4736193430F31A1DCF52.d.EB42BB97E7F9B408AA7C0CF3A7942ED3.e.137}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.89, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\AJMEER~1.NAR\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62852}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62852/devtoo..., se:cdpVersion: 129.0.6668.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f7f84a3b68eff44e9cb635c294b663cb)] -> xpath: //div[@class='addgotoText btn_fill add_to_cart']//span[text()='ADD TO CART']]
+Session ID: f7f84a3b68eff44e9cb635c294b663cb
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -103,7 +103,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
 at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
 at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
 at com.pages.RLL_240Testing_FirstCry_AddToCart.AddToCartPage.addToCart(AddToCartPage.java:64)
-at com.stepdefinition.RLL_240Testing_FirstCry_AddToCart.stepDefinition.the_user_clicks_on_the_add_to_cart_button(stepDefinition.java:167)
+at com.stepdefinition.RLL_240Testing_FirstCry_AddToCart.stepDefinition.the_user_clicks_on_the_add_to_cart_button(stepDefinition.java:179)
 at ✽.the user clicks on the Add to Cart button(file:///C:/Users/ajmeera.naresh/Desktop/New%20folder/RLL_240Testing_FirstCry_AddToCart/src/test/resource/com/feature/AddToCart/AddToCart.feature:29)
 ]]>
             </full-stacktrace>
@@ -111,7 +111,7 @@ at ✽.the user clicks on the Add to Cart button(file:///C:/Users/ajmeera.naresh
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RLL_240Testing_FirstCry_AddToCart.RunnerTestNG@4d1c005e]" started-at="2024-10-01T19:41:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-01T19:41:53 IST" duration-ms="44982" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RLL_240Testing_FirstCry_AddToCart.RunnerTestNG@24569dba]" started-at="2024-10-03T16:57:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-03T16:58:50 IST" duration-ms="51795" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -127,7 +127,7 @@ at ✽.the user clicks on the Add to Cart button(file:///C:/Users/ajmeera.naresh
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RLL_240Testing_FirstCry_AddToCart.RunnerTestNG@4d1c005e]" started-at="2024-10-01T19:41:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-01T19:42:42 IST" duration-ms="48566" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RLL_240Testing_FirstCry_AddToCart.RunnerTestNG@24569dba]" started-at="2024-10-03T16:58:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-03T16:59:42 IST" duration-ms="52168" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -143,7 +143,7 @@ at ✽.the user clicks on the Add to Cart button(file:///C:/Users/ajmeera.naresh
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.runner.RLL_240Testing_FirstCry_AddToCart.RunnerTestNG@4d1c005e]" started-at="2024-10-01T19:42:42 IST" name="tearDownClass" finished-at="2024-10-01T19:42:42 IST" duration-ms="36" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.runner.RLL_240Testing_FirstCry_AddToCart.RunnerTestNG@24569dba]" started-at="2024-10-03T16:59:42 IST" name="tearDownClass" finished-at="2024-10-03T16:59:42 IST" duration-ms="48" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

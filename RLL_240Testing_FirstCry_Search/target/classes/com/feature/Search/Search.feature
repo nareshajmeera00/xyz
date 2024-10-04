@@ -1,14 +1,6 @@
 Feature: User search for a product
 
-  #@Login
-  #Scenario: Successful login with valid credentials
-  #Given The user navigates to FirstCry Home Page
-  #When The user clicks on login
-  #And The user enters the email id or mobile no.
-  #Then The user clicks on Continue
-  #And The user enters the OTP sent to his registered email ID or mobile no.
-  #Then Click on Submit
-  #Then The user should be redirected to the Home Page
+
   @Search
   Scenario Outline: User searches for a product successfully
     Given the user is on the FirstCry homepage
@@ -17,13 +9,11 @@ Feature: User search for a product
     Then the user should see a list of products related to Search item
 
     Examples: 
-      | Input      | Expected Input                                      |
-      | Shirt      | Shirt                                               |
-      | 354632e    | Your search "354632e" did not match any products    |
-      |            | please enter a category, Brand or product to search |
-      | baby@toys! | baby(16444 Items)                                   |
-      
-      
+      | Search_Item | #Expected Input                                      |
+      | Shirt       | #Shirt                                               |
+      | 354632e     | #Your search "354632e" did not match any products    |
+      |             | #please enter a category, Brand or product to search |
+      | baby@toys!  | #baby(16444 Items)                                   |
   #@InvalidSearch
   #Scenario Outline: User searches for a product that does not exist
     #Given User is on the FirstCry homepage
